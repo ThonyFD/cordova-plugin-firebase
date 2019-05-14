@@ -8,7 +8,7 @@ PLATFORM_VERSION=$3
 
 FOLDER=".build-$PLATFORM"
 cd $FOLDER
-cd ./platforms
+cd ./platforms/android
 ls -lrt
 pwd
-./platforms/android/gradlew build --stacktrace
+./gradlew build --stacktrace
