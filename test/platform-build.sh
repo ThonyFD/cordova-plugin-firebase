@@ -9,5 +9,4 @@ PLATFORM_VERSION=$3
 FOLDER=".build-$PLATFORM"
 cd $FOLDER
 
-../node_modules/.bin/cordova build $PLATFORM --debug --verbose -- --stacktrace
 ../.build-android/platforms/android/gradlew build --stacktrace
